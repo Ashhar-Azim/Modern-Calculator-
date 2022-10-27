@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="calculator">
+      <input type="text" name = "screen" id="1" oninput="input();" onsubmit = "ent('=');" disabled>
+      <button onclick="ent('CL');">CL</button>
+      <button onclick="ent('DEL');">DEL</button>
+      <button onclick="ent('%');">%</button>
+      <button onclick="ent('/');">÷</button>
+      <button onclick="ent('7');">7</button>
+      <button onclick="ent('8');">8</button>
+      <button onclick="ent('9');">9</button>
+      <button onclick="ent('*');">×</button>
+      <button onclick="ent('4');">4</button>
+      <button onclick="ent('5');">5</button>
+      <button onclick="ent('6');">6</button>
+      <button onclick="ent('-');">-</button>
+      <button onclick="ent('1');">1</button>
+      <button onclick="ent('2');">2</button>
+      <button onclick="ent('3');">3</button>
+      <button onclick="ent('+');">+</button>
+      <button onclick="ent('0');">0</button>
+      <button onclick="ent('.');">.</button>
+      <button onclick="themef();" id="theme"></button>
+      <button id = "eq"onclick="ent('=');">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
